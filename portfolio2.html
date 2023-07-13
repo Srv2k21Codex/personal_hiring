@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Engineer Portfolio</title>
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <a class="font-bold text-xl" href="#">Saurav Ag.</a>
+      <ul class="flex space-x-4">
+        <li><a class="hover:text-gray-300" href="#about">About</a></li>
+        <li><a class="hover:text-gray-300" href="#projects">Projects</a></li>
+        <li><a class="hover:text-gray-300" href="#skills">Skills</a></li>
+        <li><a class="hover:text-gray-300" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-20">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-6">Software Engineer</h1>
+        <p class="text-lg text-gray-600">A passionate software engineer student with expertise in web development.</p>
+        <a class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 mt-8 inline-block" href="#contact">Hire Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <img class="w-full rounded-lg" src="C:\Users\HP\Desktop\web development\HTML\WhatsApp Image 2023-07-13 at 21.59.25.jpg" alt="Profile Image">
+        </div>
+        <div>
+          <p class="text-gray-600 mb-4">Hello, I'm a software engineering student with a passion for coding and problem-solving. I specialize in web development, and I'm proficient in HTML, CSS, JavaScript, and various frameworks like React and Node.js.</p>
+          <p class="text-gray-600">I'm always eager to learn and explore new technologies. I enjoy working on challenging projects and collaborating with others to create impactful solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg p-6 shadow-md">
+          <h3 class="text-xl font-bold mb-2">Project 1</h3>
+          <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique dapibus tellus, id efficitur arcu sollicitudin at.</p>
+          <a class="text-blue-500 font-bold" href="#">Read More</a>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-md">
+          <h3 class="text-xl font-bold mb-2">Project 2</h3>
+          <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique dapibus tellus, id efficitur arcu sollicitudin at.</p>
+          <a class="text-blue-500 font-bold" href="#">Read More</a>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-md">
+          <h3 class="text-xl font-bold mb-2">Project 3</h3>
+          <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique dapibus tellus, id efficitur arcu sollicitudin at.</p>
+          <a class="text-blue-500 font-bold" href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Skills</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <li>
+          <h3 class="text-lg font-bold mb-2">Frontend Development</h3>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </li>
+        <li>
+          <h3 class="text-lg font-bold mb-2">Backend Development</h3>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>REST APIs</li>
+            <li>SQL</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <div class="max-w-md mx-auto">
+        <form>
+          <div class="mb-4">
+            <label class="block text-gray-600 mb-2" for="name">Name</label>
+            <input class="border border-gray-300 rounded-lg px-3 py-2 w-full" type="text" id="name" name="name">
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-600 mb-2" for="email">Email</label>
+                <input class="border border-gray-300 rounded-lg px-3 py-2 w-full" type="email" id="email" name="email">
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-600 mb-2" for="message">Message</label>
+            <textarea class="border border-gray-300 rounded-lg px-3 py-2 w-full" id="message" name="message"></textarea>
+          </div>
+          <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
